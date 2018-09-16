@@ -1,5 +1,5 @@
 ---
-title: "Dummy Two"
+title: "Dummy Four"
 draft: false
 ---
 
@@ -9,7 +9,7 @@ draft: false
 - [Atlas](#atlas)
 
 ---
-## <a name="sticky-notes">Sticky Notes</a>
+## <a name="sticky-notes">Sticky Notes</a> <a href="#top">&uarr;</a>
 - Static Site Generator !!!
 - The world’s fastest framework for building websites https://gohugo.io/
 - Quick Start https://gohugo.io/getting-started/quick-start/
@@ -20,7 +20,7 @@ draft: false
 ---
 ##### To Do
 - [ ] Finish setup of https://github.com/eugelogic/ristretto
-- [ ] See the Ideas section below
+- [X] See the Ideas section below
 - [ ] ...
 
 ---
