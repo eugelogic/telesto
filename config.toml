@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-gb"
-title = "{TITLE}"
+title = "Telesto"
 
 enableRobotsTXT = true
 disableAliases = true
@@ -29,4 +29,3 @@ mediatype = "text/netlify"
 baseName = "_headers"
 isPlainText = true
 notAlternative = true
-
