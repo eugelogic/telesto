@@ -1,0 +1,53 @@
+a {
+    color: $copper;
+
+    &:hover,
+    &:focus {
+        color: darken( $copper, 20% );
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.note-container,
+.list-container {
+    h2 {
+        font-family: 'Righteous', cursive;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.list-container {
+    h2 {
+        margin-bottom: 0;
+    }
+}
+
+code,
+kbd {
+    // font-size: 1.5em;
+    color: black;
+    background-color: $grey;
+    padding: 2px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid $white;
+    width: 100%;
+}

@@ -4,6 +4,7 @@ title = "Telesto"
 
 enableRobotsTXT = true
 disableAliases = true
+enableEmoji = true
 
 [params]
 disallow_search_engines = false # set robots.txt to disallow everything
@@ -29,3 +30,7 @@ mediatype = "text/netlify"
 baseName = "_headers"
 isPlainText = true
 notAlternative = true
+
+# open external links in a new tab
+[blackfriday]
+hrefTargetBlank = true

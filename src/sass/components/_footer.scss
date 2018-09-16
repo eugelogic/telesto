@@ -1,0 +1,16 @@
+footer {
+    text-align: center;
+}
+
+.site-footer__copyright {
+
+    a {
+        color: white;
+
+        &:hover,
+        &:focus {
+            color: darken( $copper, 20% );
+            text-decoration: none;
+        }
+    }
+}

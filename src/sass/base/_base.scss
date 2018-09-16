@@ -1,0 +1,32 @@
+// border-box box model allows us to add padding and border to our elements without increasing their size
+html {
+    box-sizing: border-box;
+    background-color: $black;
+  }
+
+// We inherit box-sizing: border-box; from our <html> selector
+// Apparently this is a bit better than applying box-sizing: border-box; directly to the * selector
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.clearfix {
+    @include clearfix;
+}
+
+body {
+    color: $white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25em;
+    display: block;
+    line-height: 1.25;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
