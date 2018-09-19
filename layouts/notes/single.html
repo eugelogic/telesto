@@ -2,6 +2,14 @@
 
     <div class="note-container">
         <h1>{{ .Title }}</h1>
+        <div class="date-created"><small>Note created on:</small> {{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+        <ul class="note-categories">
+        {{ range .Params.categories }}
+            <li>
+                <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+            </li>
+        {{ end }}
+        </ul>
         {{ .Content }}
     </div>
 

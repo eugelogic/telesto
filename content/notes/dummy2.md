@@ -1,6 +1,9 @@
 ---
 title: "Dummy Two"
+date: 2018-09-17T16:51:08+01:00
 draft: false
+categories:
+- Cat2
 ---
 
 - [Sticky Notes](#sticky-notes)
@@ -55,6 +58,8 @@ The `config.toml` file is the main settings file of your website.
 A boilerplate is like a starter theme, here are a few good one to start off with.
 - Atlas https://github.com/indigotree/atlas
 - Victor Hugo https://github.com/netlify/victor-hugo
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ---
 ### <a name="commands">Commands</a> <a href="#top">&uarr;</a>

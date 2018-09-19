@@ -1,0 +1,18 @@
+.note-container {
+    h2 {
+        font-family: 'Righteous', cursive;
+
+        a {
+            text-decoration: none;
+        }
+    }
+    ul.note-categories {
+        margin-left: -38px;
+        li {
+        display: inline;
+    }
+    li:not(:last-child)::after {
+        content:  ", ";
+    }
+}
+}

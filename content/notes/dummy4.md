@@ -1,6 +1,9 @@
 ---
 title: "Dummy Four"
+date: 2018-09-17T16:51:08+01:00
 draft: false
+categories:
+- Cat3
 ---
 
 - [Sticky Notes](#sticky-notes)

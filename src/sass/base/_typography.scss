@@ -21,23 +21,6 @@ h1 {
     margin-top: 0;
 }
 
-.note-container,
-.list-container {
-    h2 {
-        font-family: 'Righteous', cursive;
-
-        a {
-            text-decoration: none;
-        }
-    }
-}
-
-.list-container {
-    h2 {
-        margin: 0;
-    }
-}
-
 code,
 kbd {
     // font-size: 1.5em;
@@ -54,4 +37,18 @@ hr {
     margin-right: auto;
     border: 1px solid $white;
     width: 100%;
+}
+
+ul {
+    margin-left: -20px;
+}
+
+pre code {
+    display: block;
+    border-radius: 5px;
+}
+
+ul.task-list {
+  list-style: none;
+  margin-left: -40px;
 }
