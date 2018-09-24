@@ -43,12 +43,16 @@ ul {
     margin-left: -20px;
 }
 
-pre code {
-    display: block;
-    border-radius: 5px;
+pre {
+    code {
+        display: block;
+        border-radius: 5px;
+    }
 }
 
-ul.task-list {
-  list-style: none;
-  margin-left: -40px;
+ul {
+    &.task-list {
+        list-style: none;
+        margin-left: -40px;
+    }
 }

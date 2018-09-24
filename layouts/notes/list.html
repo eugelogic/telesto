@@ -1,7 +1,7 @@
 {{ define "main" }}
 
     <div class="list-container">
-        {{ range .Paginator.Pages }}
+        {{ range .Paginator.Pages.ByTitle }}
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <!-- {{ .Content }} -->
         {{ end }}

@@ -1,0 +1,5 @@
+<ul>
+     {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+            <li><a href="/categories/{{ $name | urlize }}">{{ $name | humanize }} ({{ $taxonomy.Count }})</a></li>
+     {{ end }}
+</ul>

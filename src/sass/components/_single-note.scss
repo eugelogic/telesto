@@ -6,13 +6,18 @@
             text-decoration: none;
         }
     }
+
     ul.note-categories {
         margin-left: -38px;
+
         li {
-        display: inline;
+            display: inline;
+        }
+
+        li {
+            &:not(:last-child)::after {
+                content: ', ';
+            }
+        }
     }
-    li:not(:last-child)::after {
-        content:  ", ";
-    }
-}
 }
