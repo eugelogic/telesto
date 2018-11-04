@@ -1,14 +1,7 @@
 .note-container {
-    h2 {
-        font-family: 'Righteous', cursive;
-
-        a {
-            text-decoration: none;
-        }
-    }
 
     ul.note-categories {
-        margin-left: -38px;
+        padding-left: 0;
 
         li {
             display: inline;
@@ -20,4 +13,12 @@
             }
         }
     }
+
+    ul {
+        padding-left: 25px;
+        ul {
+            padding-left: 18px;
+        }
+    }
+
 }

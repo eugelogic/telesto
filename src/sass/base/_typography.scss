@@ -3,7 +3,7 @@ a {
 
     &:hover,
     &:focus {
-        color: darken($copper, 20%);
+        color: darken($copper, 10%);
     }
 }
 
@@ -13,8 +13,10 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Righteous', cursive;
     text-transform: uppercase;
     margin-bottom: 0;
+    color: $copper;
 }
 
 h1 {
@@ -23,7 +25,6 @@ h1 {
 
 code,
 kbd {
-    // font-size: 1.5em;
     color: black;
     background-color: $grey;
     padding: 2px;
@@ -39,8 +40,8 @@ hr {
     width: 100%;
 }
 
-ul {
-    margin-left: -20px;
+nav ul {
+    padding-left: 0;
 }
 
 pre {
@@ -53,6 +54,10 @@ pre {
 ul {
     &.task-list {
         list-style: none;
-        margin-left: -40px;
+        margin-left: -24px;
     }
+}
+
+p + ul {
+    margin-top: -18px;
 }
