@@ -5,9 +5,7 @@
 
         li {
             display: inline;
-        }
 
-        li {
             &:not(:last-child)::after {
                 content: ', ';
             }
@@ -16,6 +14,7 @@
 
     ul {
         padding-left: 25px;
+
         ul {
             padding-left: 18px;
         }
